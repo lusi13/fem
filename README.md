@@ -46,4 +46,6 @@ $$
 ![Mesh Geometry](assets/geometry.png)
 ![Solution on mesh0](assets/mesh0.png)
 ![Solution on mesh4](assets/mesh4.png)
-
+![Solution along the boundary for given times for mesh0](assets/track.png)
+![Solution on the three tracking points for mesh0](assets/trace1.png)
+![Preconditioner effect on convergence](assets/pcg_chol2.png)
