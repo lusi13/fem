@@ -44,6 +44,8 @@ $$
 
 
 ![Mesh Geometry](assets/geometry.png)
+<img src="img/geometry.png" alt="Geometry of the mesh" width="200" height="100">
+
 ![Solution on mesh0](assets/mesh0.png)
 ![Solution on mesh4](assets/mesh4.png)
 ![Solution along the boundary for given times for mesh0](assets/track.png)
