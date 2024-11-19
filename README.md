@@ -42,6 +42,6 @@ $$
 
 *Figure: Geometry of the mesh. The Dirichlet time-varying boundary conditions affect only the edge "E1".*
 
----
 
+![Mesh Geometry](assets/geometry.png)
 
