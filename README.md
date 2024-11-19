@@ -43,11 +43,15 @@ $$
 *Figure: Geometry of the mesh. The Dirichlet time-varying boundary conditions affect only the edge "E1".*
 
 
-![Mesh Geometry](assets/geometry.png)
-<img src="img/geometry.png" alt="Geometry of the mesh" width="200" height="100">
 
-![Solution on mesh0](assets/mesh0.png)
-![Solution on mesh4](assets/mesh4.png)
-![Solution along the boundary for given times for mesh0](assets/track.png)
-![Solution on the three tracking points for mesh0](assets/trace1.png)
-![Preconditioner effect on convergence](assets/pcg_chol2.png)
+<img src="assets/geometry.png" alt="Geometry of the mesh" width="350" height="300">
+<img src="assets/mesh0.png" alt="Solution on mesh0" width="350" height="300">
+*Figure: Solution on mesh4.*
+<img src="assets/mesh4.png" alt="Solution on mesh4" width="350" height="300">
+
+<img src="assets/track.png" alt="Solution along the boundary for given times for mesh0" width="350" height="300">
+*Figure: Solution on the three tracking points for mesh0.*
+<img src="assets/trace1.png" alt="Solution on the three tracking points for mesh0" width="350" height="300">
+*Figure: Preconditioner effect on convergence.*
+<img src="assets/pcg_chol2.png" alt="Preconditioner effect on convergence" width="350" height="300">
+
