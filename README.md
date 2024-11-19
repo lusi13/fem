@@ -44,4 +44,6 @@ $$
 
 
 ![Mesh Geometry](assets/geometry.png)
+![Solution on mesh0](assets/mesh0.png)
+
 
