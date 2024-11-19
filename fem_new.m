@@ -2,7 +2,7 @@
 
 format long g
 %solution on a very fine grid to compute error
-sol_ref = load('data\solRef.dat.txt'); 
+sol_ref = load('data/solRef.dat.txt'); 
 xRef=sol_ref(:,1);
 yRef=sol_ref(:,2);
 uRef=sol_ref(:,3);
@@ -11,11 +11,11 @@ interp = scatteredInterpolant(xRef, yRef, uRef);
 mesh_num = 0:4; 
 for mesh = 1 : length(mesh_num) 
 ind=mesh_num(mesh);
-topology = load(sprintf('data\mesh%i.topol', ind)); 
-coordinates = load(sprintf('data\mesh%i.coord', ind));
-boundary_conditions = load(sprintf('data\mesh%i.bound', ind));
-track= load(sprintf('data\mesh%i.track',  ind));
-trace= load(sprintf('data\mesh%i.trace',  ind));
+topology = load(sprintf('data/mesh%i.topol', ind)); 
+coordinates = load(sprintf('data/mesh%i.coord', ind));
+boundary_conditions = load(sprintf('data/mesh%i.bound', ind));
+track= load(sprintf('data/mesh%i.track',  ind));
+trace= load(sprintf('data/mesh%i.trace',  ind));
 
 x= coordinates(:,1);
 y=coordinates(:,2);
